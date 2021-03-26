@@ -1,0 +1,4 @@
+Flask>=0.12
+cfenv>=0.5.3
+flask-sqlalchemy 
+mysqlclient

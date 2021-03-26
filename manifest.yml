@@ -1,0 +1,10 @@
+---
+applications:
+- name: cf-mysql-flask-sample
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: true
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git
+  command: python app.py
+  services:
+  - database
